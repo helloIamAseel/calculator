@@ -5,6 +5,6 @@
  button{
    
     @apply bg-slate-300 text-black text-2xl rounded-full h-14 w-16
-    font-semibold shadow-slate-700 shadow-md;
+    font-semibold shadow-slate-800 shadow-md;
 
  }

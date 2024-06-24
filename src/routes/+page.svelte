@@ -4,12 +4,12 @@
    </title>
  </svelte:head>
 
- <div class=" bg-gray-500 rounded-3xl grid grid-cols-4 gap-2 p-6 pt-7
+ <div class=" bg-gray-600 rounded-3xl grid grid-cols-4 gap-2 p-6 pt-7
   shadow-slate-900 shadow-2xl">
 
     <div class="bg-amber-500 rounded-full col-span-4 h-16
      px-4 pt-3 mb-3 text-white text-3xl font-bold
-      shadow-slate-600 shadow-md">
+      shadow-slate-700 shadow-md">
     114
 
     </div>
