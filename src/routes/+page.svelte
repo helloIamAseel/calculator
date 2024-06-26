@@ -5,7 +5,7 @@
  </svelte:head>
 
 <script lang="ts"> 
-   import { onMount } from 'svelte';
+   
    import { evaluate } from 'mathjs';
 
   import SquareRoot from "$lib/icons/squareRoot.svelte";
@@ -65,6 +65,7 @@
         output?.classList.add('bg-red-500')
        setTimeout(() => {output?.classList.remove('bg-red-500');
        }, 1000);
+
        clearErrorMessage();
        
      }
