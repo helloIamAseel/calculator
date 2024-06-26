@@ -134,7 +134,7 @@
 
 
  <div class=" bg-slate-700 rounded-3xl grid grid-cols-4 gap-2 p-6 pt-7
-  shadow-slate-900 shadow-2xl min-h-[35rem] min-w-[90dvm]">
+  shadow-slate-900 shadow-2xl min-h-[35rem] max-w-[90dvm]">
 
     <div id="output" class="bg-amber-500 rounded-2xl col-span-4 min-h-20 flex items-center px-4  mb-3 text-white text-4xl font-bold
       shadow-slate-700 shadow-md break-all transition-all">
