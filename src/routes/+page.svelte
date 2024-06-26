@@ -60,8 +60,19 @@
       
     } catch (error) {
       equation = "Error";
-    }
+
+      let output = document.getElementById('output');
+        output?.classList.add('bg-red-500')
+       setTimeout(() => {output?.classList.remove('bg-red-500');
+       }, 1000);
+       clearErrorMessage();
+       
+     }
   }
+
+      function clearErrorMessage(){
+        setTimeout(() => {equation = "";} , 1000);
+      }
 
 
    // Convert special characters to their math.js equivalents
@@ -97,8 +108,8 @@
  <div class=" bg-slate-700 rounded-3xl grid grid-cols-4 gap-2 p-6 pt-7
   shadow-slate-900 shadow-2xl min-h-[35rem] w-[25rem]">
 
-    <div class="bg-amber-500 rounded-2xl col-span-4 min-h-20 flex items-center px-4  mb-3 text-white text-4xl font-bold
-      shadow-slate-700 shadow-md break-all">
+    <div id="output" class="bg-amber-500 rounded-2xl col-span-4 min-h-20 flex items-center px-4  mb-3 text-white text-4xl font-bold
+      shadow-slate-700 shadow-md break-all transition-all">
     
       {equation}
       
