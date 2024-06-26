@@ -8,7 +8,7 @@
    
     @apply bg-gray-400 text-black text-2xl rounded-full h-14 w-16
     font-semibold shadow-slate-800 shadow-md items-center justify-center
-    hover:scale-95 active:bg-gray-600 transition-all;
+    hover:scale-95 active:bg-gray-600 transition-all ml-3;
  }
 
  body{
